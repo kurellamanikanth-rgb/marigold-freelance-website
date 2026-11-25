@@ -5,19 +5,19 @@ import { formatPrice, siteConfig } from '@/lib/site-config'
 import { cn } from '@/lib/utils'
 
 const projectTypes = [
-  { id: 'portfolio', label: 'Portfolio / Personal', base: 7999, perPage: 1500 },
-  { id: 'business', label: 'Business website', base: 14999, perPage: 2000 },
-  { id: 'store', label: 'Online store', base: 39999, perPage: 2500 },
-  { id: 'webapp', label: 'Custom web app', base: 59999, perPage: 4000 },
+  { id: 'portfolio', label: 'Portfolio / Personal', base: 395, perPage: 75 },
+  { id: 'business', label: 'Business website', base: 995, perPage: 95 },
+  { id: 'store', label: 'Online store', base: 2495, perPage: 125 },
+  { id: 'webapp', label: 'Custom web app', base: 4995, perPage: 195 },
 ]
 
 const addOns = [
-  { id: 'seo', label: 'Advanced SEO setup', price: 4999 },
-  { id: 'content', label: 'Copywriting for pages', price: 5999 },
-  { id: 'logo', label: 'Logo & brand kit', price: 3999 },
-  { id: 'booking', label: 'Booking / appointments', price: 6999 },
-  { id: 'multilang', label: 'Multi-language', price: 7999 },
-  { id: 'care', label: '3 months maintenance', price: 5999 },
+  { id: 'seo', label: 'Advanced SEO setup', price: 295 },
+  { id: 'content', label: 'Copywriting for pages', price: 350 },
+  { id: 'logo', label: 'Logo & brand kit', price: 250 },
+  { id: 'booking', label: 'Booking / appointments', price: 395 },
+  { id: 'multilang', label: 'Multi-language', price: 450 },
+  { id: 'care', label: '3 months maintenance', price: 249 },
 ]
 
 export function PriceEstimator() {

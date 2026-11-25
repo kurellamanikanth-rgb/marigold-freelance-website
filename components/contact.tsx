@@ -1,8 +1,8 @@
-import { Clock, Mail, MessageCircle, Phone } from 'lucide-react'
+import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { siteConfig } from '@/lib/site-config'
 
 export function Contact() {
-  const { email, phone, whatsapp, hours } = siteConfig.contact
+  const { email, phone, whatsapp, hours, location } = siteConfig.contact
   const items = [
     { icon: MessageCircle, label: 'WhatsApp', value: phone, href: `https://wa.me/${whatsapp}` },
     { icon: Phone, label: 'Call', value: phone, href: `tel:${phone.replace(/\s/g, '')}` },
@@ -19,10 +19,16 @@ export function Contact() {
               New website, a broken one, or a software idea — reach out directly and I&apos;ll reply within a few
               hours.
             </p>
-            <p className="mt-6 inline-flex items-center gap-2 text-sm font-medium">
-              <Clock className="size-4" aria-hidden />
-              {hours}
-            </p>
+            <div className="mt-6 flex flex-col gap-2 text-sm font-medium">
+              <p className="inline-flex items-center gap-2">
+                <Clock className="size-4" aria-hidden />
+                {hours}
+              </p>
+              <p className="inline-flex items-center gap-2">
+                <MapPin className="size-4" aria-hidden />
+                {location} — serving clients across the UK
+              </p>
+            </div>
           </div>
           <ul className="grid gap-3">
             {items.map(({ icon: Icon, label, value, href }) => (
