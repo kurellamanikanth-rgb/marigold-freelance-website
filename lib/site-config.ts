@@ -8,6 +8,7 @@ export const siteConfig = {
     phone: '+44 77006600123',
     whatsapp: '+44 77006600123',
     hours: 'Mon – Fri, 10:00 AM – 7:00 PM GMT',
+    location: 'London, United Kingdom',
   },
 }
 
@@ -172,7 +173,7 @@ export const services: Service[] = [
 export const faqs = [
   {
     q: 'How do payments work?',
-    a: 'For projects, I take 50% upfront and 50% on completion. Maintenance plans are billed monthly. I accept UPI, bank transfer and international payments.',
+    a: 'For projects, I take 50% upfront and 50% on completion. Maintenance plans are billed monthly. I accept UK bank transfer, debit/credit card and PayPal. All prices are in GBP.',
   },
   {
     q: 'Do you work with existing websites?',
@@ -193,5 +194,5 @@ export const faqs = [
 ]
 
 export function formatPrice(value: number) {
-  return `${siteConfig.currency}${value.toLocaleString('en-IN')}`
+  return `${siteConfig.currency}${value.toLocaleString('en-GB')}`
 }
