@@ -1,13 +1,13 @@
 export const siteConfig = {
   brand: 'Marigold Works',
-  owner: 'Your Name',
+  owner: 'Manikanth Kurella',
   tagline: 'Websites designed, maintained, repaired — and any software you need.',
-  currency: '₹',
+  currency: '£',
   contact: {
     email: 'hello@marigoldworks.dev',
-    phone: '+91 98765 43210',
-    whatsapp: '919876543210',
-    hours: 'Mon – Sat, 10:00 AM – 7:00 PM IST',
+    phone: '+44 77006600123',
+    whatsapp: '+44 77006600123',
+    hours: 'Mon – Fri, 10:00 AM – 7:00 PM GMT',
   },
 }
 
@@ -47,17 +47,17 @@ export const services: Service[] = [
     plans: [
       {
         name: 'Starter',
-        price: 9999,
+        price: 249,
         features: ['1–3 pages', 'Mobile responsive', 'Contact form', '1 revision round'],
       },
       {
         name: 'Business',
-        price: 24999,
+        price: 449,
         features: ['Up to 8 pages', 'Basic SEO', 'Blog / CMS', '3 revision rounds'],
       },
       {
         name: 'E-commerce',
-        price: 49999,
+        price: 699,
         features: ['Online store', 'Payment gateway', 'Product management', 'Order emails'],
       },
     ],
@@ -80,19 +80,19 @@ export const services: Service[] = [
     plans: [
       {
         name: 'Basic Care',
-        price: 1999,
+        price: 49,
         unit: '/month',
         features: ['Monthly updates', 'Weekly backups', '1 hr content edits'],
       },
       {
         name: 'Pro Care',
-        price: 3999,
+        price: 89,
         unit: '/month',
         features: ['Weekly updates', 'Daily backups', '3 hrs content edits', 'Speed tuning'],
       },
       {
         name: 'Business Care',
-        price: 6999,
+        price: 129,
         unit: '/month',
         features: ['Priority support', 'Real-time backups', '6 hrs edits', 'Security hardening'],
       },
@@ -116,17 +116,17 @@ export const services: Service[] = [
     plans: [
       {
         name: 'Quick Fix',
-        price: 999,
+        price: 49,
         features: ['Single issue', 'Diagnosis included', 'Fixed in 24–48 hrs'],
       },
       {
         name: 'Full Repair',
-        price: 3499,
+        price: 99,
         features: ['Multiple issues', 'Speed optimisation', 'Full site check'],
       },
       {
         name: 'Hacked Site Recovery',
-        price: 5999,
+        price: 150,
         features: ['Malware cleanup', 'Security hardening', 'Blacklist removal'],
       },
     ],
@@ -149,19 +149,19 @@ export const services: Service[] = [
     plans: [
       {
         name: 'Hourly',
-        price: 799,
+        price: 20,
         unit: '/hour',
         features: ['Bug fixes', 'Small features', 'Consultation'],
       },
       {
         name: 'Small Project',
-        price: 19999,
+        price: 259,
         unit: '+',
         features: ['Scripts & automations', 'Simple tools', 'Integrations'],
       },
       {
         name: 'Custom App',
-        price: 59999,
+        price: 899,
         unit: '+',
         features: ['Full web application', 'Database & auth', 'Admin dashboard'],
       },
